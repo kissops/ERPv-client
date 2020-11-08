@@ -6,6 +6,8 @@
 
 **_Open Source Hybrid Enterprise Resource Planning._**
 
+![ERPv-client CI](https://github.com/kissops/ERPv-client/workflows/ERPv-client%20CI/badge.svg)
+
 </span>
 
 ## Documentation
