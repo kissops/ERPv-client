@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap');
+$body-bg: #0a0b0c;
+$body-color: #FEFEFE;
+$font-family-base: 'Cousine', monospace;
+$font-size-base: .9rem;
+$primary: #49bdf3;
+$warning: #f7c933;
+$secondary: rgba(255, 255, 255, 0.5);
+$danger: #f83fb1;
+$success: #c1f83f;  
+$dark: #0f1216;
+h1 {
+    background-color: $dark;
+    font-size: 120% !important;
+    padding: 1.5em 1em;
+}
+h2 {
+    background-color: $dark;
+    font-size: 100% !important;
+    padding: 1.5em 1em;
+    margin-bottom: 0 !important;
+}
+.nav-link {
+    font-size: 90%;
+}
+.nav-tabs {
+    border-bottom: 1px solid $secondary !important;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: $secondary $secondary $primary !important;
+}
+th {
+    background-color: $dark;
+    color: $secondary !important;
+    padding: 1em 1em !important;
+    font-weight: 500 !important;
+    font-size: 90% !important;
+}
+td {
+    background-color: $dark !important;
+    padding: .75em 1em !important;
+}
+@import '~bootstrap/scss/bootstrap.scss';
