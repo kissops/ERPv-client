@@ -14,7 +14,7 @@ function Manufacturing() {
             <Router>
                 <ul className="nav nav-tabs my-2 bg-dark">
                     <li className="nav-item">
-                        <Link className="nav-link py-3" to="/JobList">Jobs</Link>
+                        <Link className="nav-link py-2" to="/JobList">Jobs</Link>
                     </li>
                 </ul>
                 <Switch>
