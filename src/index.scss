@@ -11,13 +11,13 @@ $success: #c1f83f;
 $dark: #0f1216;
 h1 {
     background-color: $dark;
-    font-size: 120% !important;
-    padding: 1.5em 1em;
+    font-size: 110% !important;
+    padding: 1.2em 1.5em;
 }
 h2 {
     background-color: $dark;
     font-size: 100% !important;
-    padding: 1.5em 1em;
+    padding: 1.2em 1.5em;
     margin-bottom: 0 !important;
 }
 .nav-link {
@@ -26,18 +26,29 @@ h2 {
 .nav-tabs {
     border-bottom: 1px solid $secondary !important;
 }
+.nav-tabs .nav-link {
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+}
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
     border-color: $secondary $secondary $primary !important;
+}
+.btn-sm {
+    padding: .5em 1.75em !important;
 }
 th {
     background-color: $dark;
     color: $secondary !important;
-    padding: 1em 1em !important;
+    padding: 1em 1.5em !important;
     font-weight: 500 !important;
     font-size: 90% !important;
 }
 td {
     background-color: $dark !important;
-    padding: .75em 1em !important;
+    padding: .75em 1.5em !important;
+}
+.form-label {
+    color: $secondary !important;
+    font-size: 90%;
 }
 @import '~bootstrap/scss/bootstrap.scss';
