@@ -28,7 +28,7 @@ class WarehouseList extends React.Component<
         (result) => {
           this.setState({
             isLoaded: true,
-            items: result,
+            items: result.results,
           });
         },
         // Note: it's important to handle errors here
